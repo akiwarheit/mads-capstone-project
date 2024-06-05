@@ -1,2 +1,4 @@
 .venv
 models/*
+gdrive_key.json
+*.ipynb_checkpoints
