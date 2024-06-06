@@ -1,0 +1,9 @@
+transformers
+datasets
+torch
+torchvision
+torchaudio
+accelerate
+fitz
+jupyter
+PyMuPDF
