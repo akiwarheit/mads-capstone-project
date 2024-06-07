@@ -6,4 +6,7 @@ torchaudio
 accelerate
 fitz
 jupyter
-PyMuPDF
+pydrive2
+pandas
+google-auth
+google-auth-oauthlib
