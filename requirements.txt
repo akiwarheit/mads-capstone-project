@@ -1,0 +1,12 @@
+transformers
+datasets
+torch
+torchvision
+torchaudio
+accelerate
+fitz
+jupyter
+pydrive2
+pandas
+google-auth
+google-auth-oauthlib

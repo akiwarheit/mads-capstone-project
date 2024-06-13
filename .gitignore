@@ -1,2 +1,5 @@
 .venv
 models/*
+gdrive_key.json
+.idea/*
+data/*
