@@ -3,3 +3,5 @@ models/*
 gdrive_key.json
 .idea/*
 data/*
+
+t5/service_account.json

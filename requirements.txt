@@ -10,3 +10,7 @@ pydrive2
 pandas
 google-auth
 google-auth-oauthlib
+sentencepiece
+nltk
+evaluate
+rouge_score
