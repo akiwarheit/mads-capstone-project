@@ -10,3 +10,13 @@ pydrive2
 pandas
 google-auth
 google-auth-oauthlib
+matplotlib
+seaborn
+plotly
+geopandas
+folium
+pyogrio
+fiona
+contextily
+mplleaflet
+sentencepiece
