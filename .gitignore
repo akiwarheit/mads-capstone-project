@@ -3,5 +3,7 @@ models/*
 gdrive_key.json
 .idea/*
 data/*
-
+notebooks/.ipynb_checkpoints/*
+mapVis/*
+.DS_store
 t5/service_account.json
