@@ -20,3 +20,6 @@ fiona
 contextily
 mplleaflet
 sentencepiece
+nltk
+evaluate
+rouge_score

@@ -1,0 +1,1002 @@
+[
+    {
+        "question": "What are the features of the property at 123 Main St?",
+        "answer": "The property at 123 Main St has 3 bedrooms, 2 bathrooms, and features Pool;Garage;Garden."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "123 Main St is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $400000 to $600000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "123 Main St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $450000 to $550000.",
+        "answer": "123 Main St is within the price range of $450000 to $550000."
+    },
+    {
+        "question": "What are the features of the property at 456 Oak St?",
+        "answer": "The property at 456 Oak St has 4 bedrooms, 3 bathrooms, and features Garage;Garden."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "456 Oak St is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $650000 to $850000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "456 Oak St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $700000 to $800000.",
+        "answer": "456 Oak St is within the price range of $700000 to $800000."
+    },
+    {
+        "question": "What are the features of the property at 789 Pine St?",
+        "answer": "The property at 789 Pine St has 3 bedrooms, 2 bathrooms, and features Pool;Garden."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "789 Pine St is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in Los Angeles?",
+        "answer": "Properties in Los Angeles range from $500000 to $700000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "789 Pine St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $550000 to $650000.",
+        "answer": "789 Pine St is within the price range of $550000 to $650000."
+    },
+    {
+        "question": "What are the features of the property at 101 Maple St?",
+        "answer": "The property at 101 Maple St has 5 bedrooms, 4 bathrooms, and features Pool;Garage;Garden."
+    },
+    {
+        "question": "Show me properties with at least 5 bedrooms and 4 bathrooms.",
+        "answer": "101 Maple St is a property with at least 5 bedrooms and 4 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in Los Angeles?",
+        "answer": "Properties in Los Angeles range from $750000 to $950000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "101 Maple St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $800000 to $900000.",
+        "answer": "101 Maple St is within the price range of $800000 to $900000."
+    },
+    {
+        "question": "What are the features of the property at 202 Cedar St?",
+        "answer": "The property at 202 Cedar St has 2 bedrooms, 1 bathrooms, and features Garage."
+    },
+    {
+        "question": "Show me properties with at least 2 bedrooms and 1 bathrooms.",
+        "answer": "202 Cedar St is a property with at least 2 bedrooms and 1 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $200000 to $400000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "202 Cedar St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $250000 to $350000.",
+        "answer": "202 Cedar St is within the price range of $250000 to $350000."
+    },
+    {
+        "question": "What are the features of the property at 303 Birch St?",
+        "answer": "The property at 303 Birch St has 3 bedrooms, 2 bathrooms, and features Pool;Garden."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "303 Birch St is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $300000 to $500000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "303 Birch St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $350000 to $450000.",
+        "answer": "303 Birch St is within the price range of $350000 to $450000."
+    },
+    {
+        "question": "What are the features of the property at 404 Elm St?",
+        "answer": "The property at 404 Elm St has 4 bedrooms, 3 bathrooms, and features Garage;Garden."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "404 Elm St is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $450000 to $650000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "404 Elm St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $500000 to $600000.",
+        "answer": "404 Elm St is within the price range of $500000 to $600000."
+    },
+    {
+        "question": "What are the features of the property at 505 Ash St?",
+        "answer": "The property at 505 Ash St has 4 bedrooms, 3 bathrooms, and features Pool;Garden."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "505 Ash St is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in Los Angeles?",
+        "answer": "Properties in Los Angeles range from $600000 to $800000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "505 Ash St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $650000 to $750000.",
+        "answer": "505 Ash St is within the price range of $650000 to $750000."
+    },
+    {
+        "question": "What are the features of the property at 606 Spruce St?",
+        "answer": "The property at 606 Spruce St has 3 bedrooms, 2 bathrooms, and features Garage."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "606 Spruce St is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $350000 to $550000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "606 Spruce St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $400000 to $500000.",
+        "answer": "606 Spruce St is within the price range of $400000 to $500000."
+    },
+    {
+        "question": "What are the features of the property at 707 Willow St?",
+        "answer": "The property at 707 Willow St has 4 bedrooms, 3 bathrooms, and features Pool;Garage;Garden."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "707 Willow St is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $550000 to $750000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "707 Willow St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $600000 to $700000.",
+        "answer": "707 Willow St is within the price range of $600000 to $700000."
+    },
+    {
+        "question": "What are the features of the property at 808 Cypress St?",
+        "answer": "The property at 808 Cypress St has 3 bedrooms, 2 bathrooms, and features Pool;Garden."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "808 Cypress St is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $450000 to $650000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "808 Cypress St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $500000 to $600000.",
+        "answer": "808 Cypress St is within the price range of $500000 to $600000."
+    },
+    {
+        "question": "What are the features of the property at 909 Redwood St?",
+        "answer": "The property at 909 Redwood St has 5 bedrooms, 4 bathrooms, and features Garage;Garden."
+    },
+    {
+        "question": "Show me properties with at least 5 bedrooms and 4 bathrooms.",
+        "answer": "909 Redwood St is a property with at least 5 bedrooms and 4 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $700000 to $900000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "909 Redwood St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $750000 to $850000.",
+        "answer": "909 Redwood St is within the price range of $750000 to $850000."
+    },
+    {
+        "question": "What are the features of the property at 100 Elmwood St?",
+        "answer": "The property at 100 Elmwood St has 4 bedrooms, 3 bathrooms, and features Pool;Garden."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "100 Elmwood St is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in Los Angeles?",
+        "answer": "Properties in Los Angeles range from $650000 to $850000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "100 Elmwood St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $700000 to $800000.",
+        "answer": "100 Elmwood St is within the price range of $700000 to $800000."
+    },
+    {
+        "question": "What are the features of the property at 110 Oakwood St?",
+        "answer": "The property at 110 Oakwood St has 3 bedrooms, 2 bathrooms, and features Garage."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "110 Oakwood St is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $500000 to $700000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "110 Oakwood St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $550000 to $650000.",
+        "answer": "110 Oakwood St is within the price range of $550000 to $650000."
+    },
+    {
+        "question": "What are the features of the property at 120 Pinewood St?",
+        "answer": "The property at 120 Pinewood St has 2 bedrooms, 1 bathrooms, and features Pool."
+    },
+    {
+        "question": "Show me properties with at least 2 bedrooms and 1 bathrooms.",
+        "answer": "120 Pinewood St is a property with at least 2 bedrooms and 1 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $300000 to $500000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "120 Pinewood St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $350000 to $450000.",
+        "answer": "120 Pinewood St is within the price range of $350000 to $450000."
+    },
+    {
+        "question": "What are the features of the property at 130 Maplewood St?",
+        "answer": "The property at 130 Maplewood St has 5 bedrooms, 4 bathrooms, and features Garage;Garden."
+    },
+    {
+        "question": "Show me properties with at least 5 bedrooms and 4 bathrooms.",
+        "answer": "130 Maplewood St is a property with at least 5 bedrooms and 4 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in Los Angeles?",
+        "answer": "Properties in Los Angeles range from $750000 to $950000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "130 Maplewood St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $800000 to $900000.",
+        "answer": "130 Maplewood St is within the price range of $800000 to $900000."
+    },
+    {
+        "question": "What are the features of the property at 140 Cedarwood St?",
+        "answer": "The property at 140 Cedarwood St has 2 bedrooms, 1 bathrooms, and features Pool."
+    },
+    {
+        "question": "Show me properties with at least 2 bedrooms and 1 bathrooms.",
+        "answer": "140 Cedarwood St is a property with at least 2 bedrooms and 1 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $200000 to $400000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "140 Cedarwood St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $250000 to $350000.",
+        "answer": "140 Cedarwood St is within the price range of $250000 to $350000."
+    },
+    {
+        "question": "What are the features of the property at 150 Birchwood St?",
+        "answer": "The property at 150 Birchwood St has 3 bedrooms, 2 bathrooms, and features Garage;Garden."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "150 Birchwood St is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $300000 to $500000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "150 Birchwood St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $350000 to $450000.",
+        "answer": "150 Birchwood St is within the price range of $350000 to $450000."
+    },
+    {
+        "question": "What are the features of the property at 160 Elmwood Ave?",
+        "answer": "The property at 160 Elmwood Ave has 4 bedrooms, 3 bathrooms, and features Pool;Garage."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "160 Elmwood Ave is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $450000 to $650000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "160 Elmwood Ave has a pool and a garden."
+    },
+    {
+        "question": "List properties within $500000 to $600000.",
+        "answer": "160 Elmwood Ave is within the price range of $500000 to $600000."
+    },
+    {
+        "question": "What are the features of the property at 170 Ashwood Ave?",
+        "answer": "The property at 170 Ashwood Ave has 4 bedrooms, 3 bathrooms, and features Garden."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "170 Ashwood Ave is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in Los Angeles?",
+        "answer": "Properties in Los Angeles range from $600000 to $800000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "170 Ashwood Ave has a pool and a garden."
+    },
+    {
+        "question": "List properties within $650000 to $750000.",
+        "answer": "170 Ashwood Ave is within the price range of $650000 to $750000."
+    },
+    {
+        "question": "What are the features of the property at 180 Sprucewood Ave?",
+        "answer": "The property at 180 Sprucewood Ave has 3 bedrooms, 2 bathrooms, and features Pool."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "180 Sprucewood Ave is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $350000 to $550000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "180 Sprucewood Ave has a pool and a garden."
+    },
+    {
+        "question": "List properties within $400000 to $500000.",
+        "answer": "180 Sprucewood Ave is within the price range of $400000 to $500000."
+    },
+    {
+        "question": "What are the features of the property at 190 Willowwood Ave?",
+        "answer": "The property at 190 Willowwood Ave has 4 bedrooms, 3 bathrooms, and features Garage."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "190 Willowwood Ave is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $550000 to $750000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "190 Willowwood Ave has a pool and a garden."
+    },
+    {
+        "question": "List properties within $600000 to $700000.",
+        "answer": "190 Willowwood Ave is within the price range of $600000 to $700000."
+    },
+    {
+        "question": "What are the features of the property at 200 Cypresswood Ave?",
+        "answer": "The property at 200 Cypresswood Ave has 3 bedrooms, 2 bathrooms, and features Garden."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "200 Cypresswood Ave is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $450000 to $650000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "200 Cypresswood Ave has a pool and a garden."
+    },
+    {
+        "question": "List properties within $500000 to $600000.",
+        "answer": "200 Cypresswood Ave is within the price range of $500000 to $600000."
+    },
+    {
+        "question": "What are the features of the property at 210 Redwoodwood Ave?",
+        "answer": "The property at 210 Redwoodwood Ave has 5 bedrooms, 4 bathrooms, and features Pool."
+    },
+    {
+        "question": "Show me properties with at least 5 bedrooms and 4 bathrooms.",
+        "answer": "210 Redwoodwood Ave is a property with at least 5 bedrooms and 4 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $700000 to $900000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "210 Redwoodwood Ave has a pool and a garden."
+    },
+    {
+        "question": "List properties within $750000 to $850000.",
+        "answer": "210 Redwoodwood Ave is within the price range of $750000 to $850000."
+    },
+    {
+        "question": "What are the features of the property at 220 Elmwood Dr?",
+        "answer": "The property at 220 Elmwood Dr has 4 bedrooms, 3 bathrooms, and features Garage."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "220 Elmwood Dr is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in Los Angeles?",
+        "answer": "Properties in Los Angeles range from $650000 to $850000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "220 Elmwood Dr has a pool and a garden."
+    },
+    {
+        "question": "List properties within $700000 to $800000.",
+        "answer": "220 Elmwood Dr is within the price range of $700000 to $800000."
+    },
+    {
+        "question": "What are the features of the property at 230 Oakwood Dr?",
+        "answer": "The property at 230 Oakwood Dr has 3 bedrooms, 2 bathrooms, and features Pool;Garden."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "230 Oakwood Dr is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $500000 to $700000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "230 Oakwood Dr has a pool and a garden."
+    },
+    {
+        "question": "List properties within $550000 to $650000.",
+        "answer": "230 Oakwood Dr is within the price range of $550000 to $650000."
+    },
+    {
+        "question": "What are the features of the property at 240 Pinewood Dr?",
+        "answer": "The property at 240 Pinewood Dr has 2 bedrooms, 1 bathrooms, and features Garage."
+    },
+    {
+        "question": "Show me properties with at least 2 bedrooms and 1 bathrooms.",
+        "answer": "240 Pinewood Dr is a property with at least 2 bedrooms and 1 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $300000 to $500000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "240 Pinewood Dr has a pool and a garden."
+    },
+    {
+        "question": "List properties within $350000 to $450000.",
+        "answer": "240 Pinewood Dr is within the price range of $350000 to $450000."
+    },
+    {
+        "question": "What are the features of the property at 250 Maplewood Dr?",
+        "answer": "The property at 250 Maplewood Dr has 5 bedrooms, 4 bathrooms, and features Pool;Garden."
+    },
+    {
+        "question": "Show me properties with at least 5 bedrooms and 4 bathrooms.",
+        "answer": "250 Maplewood Dr is a property with at least 5 bedrooms and 4 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in Los Angeles?",
+        "answer": "Properties in Los Angeles range from $750000 to $950000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "250 Maplewood Dr has a pool and a garden."
+    },
+    {
+        "question": "List properties within $800000 to $900000.",
+        "answer": "250 Maplewood Dr is within the price range of $800000 to $900000."
+    },
+    {
+        "question": "What are the features of the property at 260 Cedarwood Dr?",
+        "answer": "The property at 260 Cedarwood Dr has 2 bedrooms, 1 bathrooms, and features Garden."
+    },
+    {
+        "question": "Show me properties with at least 2 bedrooms and 1 bathrooms.",
+        "answer": "260 Cedarwood Dr is a property with at least 2 bedrooms and 1 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $200000 to $400000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "260 Cedarwood Dr has a pool and a garden."
+    },
+    {
+        "question": "List properties within $250000 to $350000.",
+        "answer": "260 Cedarwood Dr is within the price range of $250000 to $350000."
+    },
+    {
+        "question": "What are the features of the property at 270 Birchwood Dr?",
+        "answer": "The property at 270 Birchwood Dr has 3 bedrooms, 2 bathrooms, and features Pool;Garage."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "270 Birchwood Dr is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $300000 to $500000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "270 Birchwood Dr has a pool and a garden."
+    },
+    {
+        "question": "List properties within $350000 to $450000.",
+        "answer": "270 Birchwood Dr is within the price range of $350000 to $450000."
+    },
+    {
+        "question": "What are the features of the property at 280 Elmwood Blvd?",
+        "answer": "The property at 280 Elmwood Blvd has 4 bedrooms, 3 bathrooms, and features Garage."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "280 Elmwood Blvd is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $450000 to $650000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "280 Elmwood Blvd has a pool and a garden."
+    },
+    {
+        "question": "List properties within $500000 to $600000.",
+        "answer": "280 Elmwood Blvd is within the price range of $500000 to $600000."
+    },
+    {
+        "question": "What are the features of the property at 290 Ashwood Blvd?",
+        "answer": "The property at 290 Ashwood Blvd has 4 bedrooms, 3 bathrooms, and features Pool;Garden."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "290 Ashwood Blvd is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in Los Angeles?",
+        "answer": "Properties in Los Angeles range from $600000 to $800000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "290 Ashwood Blvd has a pool and a garden."
+    },
+    {
+        "question": "List properties within $650000 to $750000.",
+        "answer": "290 Ashwood Blvd is within the price range of $650000 to $750000."
+    },
+    {
+        "question": "What are the features of the property at 300 Sprucewood Blvd?",
+        "answer": "The property at 300 Sprucewood Blvd has 3 bedrooms, 2 bathrooms, and features Garage."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "300 Sprucewood Blvd is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $350000 to $550000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "300 Sprucewood Blvd has a pool and a garden."
+    },
+    {
+        "question": "List properties within $400000 to $500000.",
+        "answer": "300 Sprucewood Blvd is within the price range of $400000 to $500000."
+    },
+    {
+        "question": "What are the features of the property at 310 Willowwood Blvd?",
+        "answer": "The property at 310 Willowwood Blvd has 4 bedrooms, 3 bathrooms, and features Pool."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "310 Willowwood Blvd is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $550000 to $750000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "310 Willowwood Blvd has a pool and a garden."
+    },
+    {
+        "question": "List properties within $600000 to $700000.",
+        "answer": "310 Willowwood Blvd is within the price range of $600000 to $700000."
+    },
+    {
+        "question": "What are the features of the property at 320 Cypresswood Blvd?",
+        "answer": "The property at 320 Cypresswood Blvd has 3 bedrooms, 2 bathrooms, and features Garage;Garden."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "320 Cypresswood Blvd is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $450000 to $650000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "320 Cypresswood Blvd has a pool and a garden."
+    },
+    {
+        "question": "List properties within $500000 to $600000.",
+        "answer": "320 Cypresswood Blvd is within the price range of $500000 to $600000."
+    },
+    {
+        "question": "What are the features of the property at 330 Redwoodwood Blvd?",
+        "answer": "The property at 330 Redwoodwood Blvd has 5 bedrooms, 4 bathrooms, and features Pool."
+    },
+    {
+        "question": "Show me properties with at least 5 bedrooms and 4 bathrooms.",
+        "answer": "330 Redwoodwood Blvd is a property with at least 5 bedrooms and 4 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $700000 to $900000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "330 Redwoodwood Blvd has a pool and a garden."
+    },
+    {
+        "question": "List properties within $750000 to $850000.",
+        "answer": "330 Redwoodwood Blvd is within the price range of $750000 to $850000."
+    },
+    {
+        "question": "What are the features of the property at 340 Elmwood St?",
+        "answer": "The property at 340 Elmwood St has 4 bedrooms, 3 bathrooms, and features Garage;Garden."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "340 Elmwood St is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in Los Angeles?",
+        "answer": "Properties in Los Angeles range from $650000 to $850000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "340 Elmwood St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $700000 to $800000.",
+        "answer": "340 Elmwood St is within the price range of $700000 to $800000."
+    },
+    {
+        "question": "What are the features of the property at 350 Oakwood St?",
+        "answer": "The property at 350 Oakwood St has 3 bedrooms, 2 bathrooms, and features Pool."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "350 Oakwood St is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $500000 to $700000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "350 Oakwood St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $550000 to $650000.",
+        "answer": "350 Oakwood St is within the price range of $550000 to $650000."
+    },
+    {
+        "question": "What are the features of the property at 360 Pinewood St?",
+        "answer": "The property at 360 Pinewood St has 2 bedrooms, 1 bathrooms, and features Garden."
+    },
+    {
+        "question": "Show me properties with at least 2 bedrooms and 1 bathrooms.",
+        "answer": "360 Pinewood St is a property with at least 2 bedrooms and 1 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $300000 to $500000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "360 Pinewood St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $350000 to $450000.",
+        "answer": "360 Pinewood St is within the price range of $350000 to $450000."
+    },
+    {
+        "question": "What are the features of the property at 370 Maplewood St?",
+        "answer": "The property at 370 Maplewood St has 5 bedrooms, 4 bathrooms, and features Garage;Garden."
+    },
+    {
+        "question": "Show me properties with at least 5 bedrooms and 4 bathrooms.",
+        "answer": "370 Maplewood St is a property with at least 5 bedrooms and 4 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in Los Angeles?",
+        "answer": "Properties in Los Angeles range from $750000 to $950000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "370 Maplewood St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $800000 to $900000.",
+        "answer": "370 Maplewood St is within the price range of $800000 to $900000."
+    },
+    {
+        "question": "What are the features of the property at 380 Cedarwood St?",
+        "answer": "The property at 380 Cedarwood St has 2 bedrooms, 1 bathrooms, and features Pool."
+    },
+    {
+        "question": "Show me properties with at least 2 bedrooms and 1 bathrooms.",
+        "answer": "380 Cedarwood St is a property with at least 2 bedrooms and 1 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $200000 to $400000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "380 Cedarwood St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $250000 to $350000.",
+        "answer": "380 Cedarwood St is within the price range of $250000 to $350000."
+    },
+    {
+        "question": "What are the features of the property at 390 Birchwood St?",
+        "answer": "The property at 390 Birchwood St has 3 bedrooms, 2 bathrooms, and features Garage;Garden."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "390 Birchwood St is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $300000 to $500000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "390 Birchwood St has a pool and a garden."
+    },
+    {
+        "question": "List properties within $350000 to $450000.",
+        "answer": "390 Birchwood St is within the price range of $350000 to $450000."
+    },
+    {
+        "question": "What are the features of the property at 400 Elmwood Ave?",
+        "answer": "The property at 400 Elmwood Ave has 4 bedrooms, 3 bathrooms, and features Pool;Garage."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "400 Elmwood Ave is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $450000 to $650000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "400 Elmwood Ave has a pool and a garden."
+    },
+    {
+        "question": "List properties within $500000 to $600000.",
+        "answer": "400 Elmwood Ave is within the price range of $500000 to $600000."
+    },
+    {
+        "question": "What are the features of the property at 410 Ashwood Ave?",
+        "answer": "The property at 410 Ashwood Ave has 4 bedrooms, 3 bathrooms, and features Garden."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "410 Ashwood Ave is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in Los Angeles?",
+        "answer": "Properties in Los Angeles range from $600000 to $800000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "410 Ashwood Ave has a pool and a garden."
+    },
+    {
+        "question": "List properties within $650000 to $750000.",
+        "answer": "410 Ashwood Ave is within the price range of $650000 to $750000."
+    },
+    {
+        "question": "What are the features of the property at 420 Sprucewood Ave?",
+        "answer": "The property at 420 Sprucewood Ave has 3 bedrooms, 2 bathrooms, and features Pool."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "420 Sprucewood Ave is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $350000 to $550000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "420 Sprucewood Ave has a pool and a garden."
+    },
+    {
+        "question": "List properties within $400000 to $500000.",
+        "answer": "420 Sprucewood Ave is within the price range of $400000 to $500000."
+    },
+    {
+        "question": "What are the features of the property at 430 Willowwood Ave?",
+        "answer": "The property at 430 Willowwood Ave has 4 bedrooms, 3 bathrooms, and features Garage."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "430 Willowwood Ave is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $550000 to $750000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "430 Willowwood Ave has a pool and a garden."
+    },
+    {
+        "question": "List properties within $600000 to $700000.",
+        "answer": "430 Willowwood Ave is within the price range of $600000 to $700000."
+    },
+    {
+        "question": "What are the features of the property at 440 Cypresswood Ave?",
+        "answer": "The property at 440 Cypresswood Ave has 3 bedrooms, 2 bathrooms, and features Garden."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "440 Cypresswood Ave is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $450000 to $650000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "440 Cypresswood Ave has a pool and a garden."
+    },
+    {
+        "question": "List properties within $500000 to $600000.",
+        "answer": "440 Cypresswood Ave is within the price range of $500000 to $600000."
+    },
+    {
+        "question": "What are the features of the property at 450 Redwoodwood Ave?",
+        "answer": "The property at 450 Redwoodwood Ave has 5 bedrooms, 4 bathrooms, and features Pool."
+    },
+    {
+        "question": "Show me properties with at least 5 bedrooms and 4 bathrooms.",
+        "answer": "450 Redwoodwood Ave is a property with at least 5 bedrooms and 4 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Francisco?",
+        "answer": "Properties in San Francisco range from $700000 to $900000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "450 Redwoodwood Ave has a pool and a garden."
+    },
+    {
+        "question": "List properties within $750000 to $850000.",
+        "answer": "450 Redwoodwood Ave is within the price range of $750000 to $850000."
+    },
+    {
+        "question": "What are the features of the property at 460 Elmwood Dr?",
+        "answer": "The property at 460 Elmwood Dr has 4 bedrooms, 3 bathrooms, and features Garage;Garden."
+    },
+    {
+        "question": "Show me properties with at least 4 bedrooms and 3 bathrooms.",
+        "answer": "460 Elmwood Dr is a property with at least 4 bedrooms and 3 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in Los Angeles?",
+        "answer": "Properties in Los Angeles range from $650000 to $850000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "460 Elmwood Dr has a pool and a garden."
+    },
+    {
+        "question": "List properties within $700000 to $800000.",
+        "answer": "460 Elmwood Dr is within the price range of $700000 to $800000."
+    },
+    {
+        "question": "What are the features of the property at 470 Oakwood Dr?",
+        "answer": "The property at 470 Oakwood Dr has 3 bedrooms, 2 bathrooms, and features Pool;Garden."
+    },
+    {
+        "question": "Show me properties with at least 3 bedrooms and 2 bathrooms.",
+        "answer": "470 Oakwood Dr is a property with at least 3 bedrooms and 2 bathrooms."
+    },
+    {
+        "question": "What is the price range for properties in San Diego?",
+        "answer": "Properties in San Diego range from $500000 to $700000."
+    },
+    {
+        "question": "Which properties have a pool and a garden?",
+        "answer": "470 Oakwood Dr has a pool and a garden."
+    },
+    {
+        "question": "List properties within $550000 to $650000.",
+        "answer": "470 Oakwood Dr is within the price range of $550000 to $650000."
+    }
+]
