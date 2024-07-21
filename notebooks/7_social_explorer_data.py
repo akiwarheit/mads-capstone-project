@@ -1,10 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('../data/social_explorer/Terrain_dataset.csv')
-
-
-# max_value = df['Year'].max()
-# print(max_value)
+df = pd.read_pickle('../data/social_explorer/terrain_dataset.pkl')
 
 df = df.query('Year >= 2011').reset_index(drop=True)
 
