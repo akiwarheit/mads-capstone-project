@@ -2,9 +2,11 @@
 models/*
 gdrive_key.json
 .idea/*
-data/*
-
 t5/service_account.json
 notebooks/.ipynb_checkpoints/*
 mapVis/*
 .DS_store
+t5/results/*
+
+notebooks/LLama-2-7b-chat-finetune/*
+notebooks/results
