@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 # @TODO ADJUST THE LLAMA MODEL HERE
-MODEL_NAME = "NousResearch/Llama-2-7b-chat-hf" # "../notebooks/results"
+MODEL_NAME = "NousResearch/Llama-2-7b-chat-hf" # "../notebooks/results-v3"
 
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
@@ -45,7 +45,7 @@ def ask():
         return jsonify({"error": "No question provided"}), 400
     
     # Tokenize and prepare input
-    inputs = tokenizer(question, return_tensors="pt").to("cuda")
+    inputs = tokenizer(question, return_tensors="pt").to("cpu")
     output = model.generate(**inputs, max_length=128)
     
     # Decode and return the response
