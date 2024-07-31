@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
@@ -7,35 +7,87 @@ interface Message {
   text: string;
 }
 
+interface ApiResponse {
+  response: string;
+}
+
+const initialQuestions = [
+  "What type of terrain do you prefer to live in (e.g., forests, open water, developed areas)?",
+  "Are you looking for a county with a higher or lower population density (e.g., densely populated urban areas or more sparsely populated rural areas)?",
+  "What is your preferred demographic makeup of the community you live in (e.g., predominantly White, African American, Hispanic)?",
+  "Is it important for you to live in an area with a lower or higher crime rate (e.g., low crime suburban areas or higher crime urban areas)?",
+  "What is your preferred quality of public schools (e.g., high-ranking elementary schools, average middle schools, lower-ranking high schools)?",
+  "What is your budget range for housing, specifically in terms of fair market rent for different bedroom sizes (e.g., $700 for one bedroom, $830 for two bedrooms, $1047 for three bedrooms, $1425 for four bedrooms)?",
+  "Do you need access to agricultural land (e.g., areas with significant pasture/hay or cultivated crops)?",
+  "How important is proximity to natural features (e.g., areas with significant deciduous or evergreen forests, or regions with extensive woody or herbaceous wetlands)?",
+  "Are you looking for an area with more developed open space or one with more natural terrain (e.g., shrub/scrub, grassland/herbaceous)?",
+  "What median family income range are you comfortable with in the community you live in (e.g., communities with a median family income around $65,700)?"
+];
+
 const App: React.FC = () => {
   const [input, setInput] = useState<string>("");
   const [messages, setMessages] = useState<Message[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
+  const [questionIndex, setQuestionIndex] = useState<number>(0);
+  const [userResponses, setUserResponses] = useState<string[]>([]);
+
+  useEffect(() => {
+    // Display the welcome message and the first question
+    const welcomeMessage: Message = {
+      sender: "bot",
+      text: "Welcome! I'm here to help you find the best place to live.",
+    };
+    const firstQuestion: Message = {
+      sender: "bot",
+      text: initialQuestions[0],
+    };
+    setMessages([welcomeMessage, firstQuestion]);
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (input.trim() === "") return;
 
     const userMessage: Message = { sender: "user", text: input };
-    setMessages([...messages, userMessage]);
+    setMessages((prevMessages) => [...prevMessages, userMessage]);
+    setUserResponses((prevResponses) => [...prevResponses, input]);
     setLoading(true);
+    setInput("");
 
     try {
-      const response = await axios.post("http://localhost:5000/ask", {
-        question: input,
-      });
-      const botMessage: Message = {
-        sender: "bot",
-        text: (response as any).data.response,
-      };
-      setMessages([...messages, userMessage, botMessage]);
+      if (questionIndex < initialQuestions.length - 1) {
+        // Move to the next question
+        setQuestionIndex((prevIndex) => prevIndex + 1);
+        const nextQuestion: Message = {
+          sender: "bot",
+          text: initialQuestions[questionIndex + 1],
+        };
+        setMessages((prevMessages) => [...prevMessages, nextQuestion]);
+      } else {
+        // Send the accumulated user responses and questions to the backend
+        const payload = {
+          responses: userResponses,
+          questions: initialQuestions
+        };
+
+        const response = await axios.post<ApiResponse>("http://localhost:8080/ask", payload);
+
+        const botMessage: Message = {
+          sender: "bot",
+          text: response.data.response,
+        };
+        setMessages((prevMessages) => [...prevMessages, botMessage]);
+      }
     } catch (error) {
       console.error("Error sending message:", error);
+      const errorMessage: Message = {
+        sender: "bot",
+        text: "Sorry, something went wrong. Please try again.",
+      };
+      setMessages((prevMessages) => [...prevMessages, errorMessage]);
     } finally {
       setLoading(false);
     }
-
-    setInput("");
   };
 
   return (
