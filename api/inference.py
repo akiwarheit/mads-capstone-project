@@ -15,6 +15,4 @@ def query_endpoint(payload, aws_access_key_id, aws_secret_access_key):
     model_predictions = json.loads(response["Body"].read())
     generated_text = model_predictions[0]["generated_text"]
 
-    print(model_predictions)
-
     return generated_text
