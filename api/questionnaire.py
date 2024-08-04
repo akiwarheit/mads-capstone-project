@@ -1,36 +1,11 @@
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
-import torch
+import re
 
-model_name = 'gpt2'
-model = GPT2LMHeadModel.from_pretrained(model_name)
-tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+def generate_question(question, response):
+    def clean_question(question):
+        return re.sub(r'\s*\(.*?\)', '', question).strip()
 
-def provide_reco(profile_str):
-    def generate_response(prompt, output_length=100):
-        inputs = tokenizer(prompt, return_tensors='pt')
-        input_ids = inputs['input_ids']
-        attention_mask = inputs['attention_mask']
+    q_payload = "Given the following question/answer pairs, recommend me a county to live in the US: \n"
+    for i in range(2):
+        q_payload += f"{clean_question(question[i])}" + ": " + f"{response[i]}\n"
+    return q_payload
 
-        max_length = input_ids.shape[1] + output_length
-        outputs = model.generate(
-            input_ids,
-            attention_mask=attention_mask,
-            max_length=max_length,
-            pad_token_id=tokenizer.eos_token_id,
-            num_return_sequences=1
-        )
-        response = tokenizer.decode(outputs[0], skip_special_tokens=True)
-        return response
-
-
-    def make_recommendation(profile_str):
-        prompt = (
-            f"Based on this profile:\n{profile_str}\n"
-            "Considering the user's preferences, which county in the United States would be the best to live in?\n\n"
-            "Provide your recommendation in a single sentence."
-        )
-        recommendation = generate_response(prompt)
-        return recommendation
-
-    recommendation = make_recommendation(profile_str)
-    return recommendation
