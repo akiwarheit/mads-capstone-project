@@ -16,3 +16,7 @@ notebooks/results
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 notebooks/results-v3
+
+aws/*
+awscliv2.zip
+**/__pycache__/*

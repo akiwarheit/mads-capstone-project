@@ -1,7 +1,7 @@
 import json
 import boto3
 newline, bold, unbold = "\n", "\033[1m", "\033[0m"
-endpoint_name = "jumpstart-dft-hf-text2text-flan-t5-20240802-000916"
+endpoint_name = "jumpstart-dft-hf-text2text-flan-t5-20240804-092102"
 
 def query_endpoint(payload, aws_access_key_id, aws_secret_access_key):
     client = boto3.client("runtime.sagemaker",
