@@ -20,3 +20,5 @@ notebooks/results-v3
 aws/*
 awscliv2.zip
 **/__pycache__/*
+
+local.env
