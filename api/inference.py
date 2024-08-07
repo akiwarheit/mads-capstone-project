@@ -1,22 +1,13 @@
-import json
-import boto3
-newline, bold, unbold = "\n", "\033[1m", "\033[0m"
-endpoint_name = "jumpstart-dft-hf-text2text-flan-t5-20240805-081531"
+from sagemaker.predictor import retrieve_default
+endpoint_name = "jumpstart-dft-meta-textgeneration-l-20240807-011912"
+predictor = retrieve_default(endpoint_name)
 
-def query_endpoint(payload, aws_access_key_id, aws_secret_access_key):
-    client = boto3.client("runtime.sagemaker",
-        region_name="us-east-1",
-        aws_access_key_id=aws_access_key_id,
-        aws_secret_access_key=aws_secret_access_key
-    )
 
-    response = client.invoke_endpoint(
-        EndpointName=endpoint_name, ContentType="application/json", Body=json.dumps(payload).encode("utf-8")
-    )
+def query_endpoint(inputs):
+    inputs["parameters"] = {
+        "max_new_tokens": 1024,
+        "top_p": 0.1,
+        "temperature": 0.2
+    }
 
-    model_predictions = json.loads(response["Body"].read())
-
-    print(model_predictions)
-    generated_text = model_predictions[0]["generated_text"]
-
-    return generated_text
+    return predictor.predict(inputs)

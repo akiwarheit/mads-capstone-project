@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import "./App.css";
 
@@ -14,14 +14,8 @@ interface ApiResponse {
 const initialQuestions = [
   "What type of terrain do you prefer to live in (e.g., forests, open water, developed areas)?",
   "Are you looking for a county with a higher or lower population density (e.g., densely populated urban areas or more sparsely populated rural areas)?",
-  "What is your preferred demographic makeup of the community you live in (e.g., predominantly White, African American, Hispanic)?",
-  "Is it important for you to live in an area with a lower or higher crime rate (e.g., low crime suburban areas or higher crime urban areas)?",
   "What is your preferred quality of public schools (e.g., high-ranking elementary schools, average middle schools, lower-ranking high schools)?",
   "What is your budget range for housing, specifically in terms of fair market rent for different bedroom sizes (e.g., $700 for one bedroom, $830 for two bedrooms, $1047 for three bedrooms, $1425 for four bedrooms)?",
-  "Do you need access to agricultural land (e.g., areas with significant pasture/hay or cultivated crops)?",
-  "How important is proximity to natural features (e.g., areas with significant deciduous or evergreen forests, or regions with extensive woody or herbaceous wetlands)?",
-  "Are you looking for an area with more developed open space or one with more natural terrain (e.g., shrub/scrub, grassland/herbaceous)?",
-  "What median family income range are you comfortable with in the community you live in (e.g., communities with a median family income around $65,700)?"
 ];
 
 const App: React.FC = () => {
@@ -31,8 +25,13 @@ const App: React.FC = () => {
   const [questionIndex, setQuestionIndex] = useState<number>(0);
   const [userResponses, setUserResponses] = useState<string[]>([]);
 
+  const messagesEndRef = useRef<HTMLDivElement | null>(null);
+
   useEffect(() => {
-    // Display the welcome message and the first question
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
+
+  useEffect(() => {
     const welcomeMessage: Message = {
       sender: "bot",
       text: "Welcome! I'm here to help you find the best place to live.",
@@ -56,7 +55,6 @@ const App: React.FC = () => {
 
     try {
       if (questionIndex < initialQuestions.length - 1) {
-        // Move to the next question
         setQuestionIndex((prevIndex) => prevIndex + 1);
         const nextQuestion: Message = {
           sender: "bot",
@@ -64,13 +62,17 @@ const App: React.FC = () => {
         };
         setMessages((prevMessages) => [...prevMessages, nextQuestion]);
       } else {
-        // Send the accumulated user responses and questions to the backend
+        console.log();
         const payload = {
-          responses: userResponses,
-          questions: initialQuestions
+          question: `I am looking for a county that matches the description: ${userResponses.join(
+            ","
+          )}. What county matches this?`,
         };
 
-        const response = await axios.post<ApiResponse>("http://localhost:8080/ask", payload);
+        const response = await axios.post<ApiResponse>(
+          "http://localhost:8080/ask",
+          payload
+        );
 
         const botMessage: Message = {
           sender: "bot",
@@ -109,6 +111,7 @@ const App: React.FC = () => {
           {loading && (
             <div className="self-center p-2 text-gray-500">Loading...</div>
           )}
+          <div ref={messagesEndRef} />
         </div>
         <form onSubmit={handleSubmit} className="flex space-x-4">
           <input
