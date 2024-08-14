@@ -1,1 +1,1 @@
-All scripts inside of this directory (exploration) were not used in the final product and are just here for reference of work done to learn and express our journey to our final product
+All scripts inside of this directory (exploration) were not used in the final application and are just here for reference of work done to learn and express our journey to our final product
