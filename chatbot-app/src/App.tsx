@@ -64,9 +64,9 @@ const App: React.FC = () => {
       } else {
         console.log();
         const payload = {
-          question: `I am looking for a county that matches the description: ${userResponses.join(
+          question: `[INST] I am looking for a county that matches the description: ${userResponses.join(
             ","
-          )}. What county matches this?`,
+          )}. What county matches this? Provide the terrain characteristics for each county. [/INST]`,
         };
 
         const response = await axios.post<ApiResponse>(
@@ -76,7 +76,7 @@ const App: React.FC = () => {
 
         const botMessage: Message = {
           sender: "bot",
-          text: response.data.response,
+          text: response.data.response.replace("[/] ", ""),
         };
         setMessages((prevMessages) => [...prevMessages, botMessage]);
       }
