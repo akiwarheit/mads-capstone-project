@@ -1,4 +1,19 @@
 from sagemaker.predictor import retrieve_default
+import argparse
+import boto3
+
+parser = argparse.ArgumentParser(description='Access SageMaker endpoint with AWS credentials')
+parser.add_argument('-key', type=str, required=True, help='AWS Access Key')
+parser.add_argument('-secret', type=str, required=True, help='AWS Secret Key')
+
+args = parser.parse_args()
+
+session = boto3.Session(
+    aws_access_key_id=args.key,
+    aws_secret_access_key=args.secret,
+    region_name='us-east-1'
+)
+
 endpoint_name = "jumpstart-dft-meta-textgeneration-l-20240807-011912"
 predictor = retrieve_default(endpoint_name)
 
