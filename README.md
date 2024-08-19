@@ -10,6 +10,24 @@ Hsiao Chen Yeh - hcyeh@umich.edu
 
 Kevin Deloria - kevinjd@umich.edu
 
+# Environment setup
+
+Make sure you have aws cli installed & setup.
+
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+This will differ by environment (Mac, Windows, Linux).
+
+Once you have the cli installed - login using the access & secret keys.
+
+```shell
+$ aws configure
+AWS Access Key ID [None]: {key}
+AWS Secret Access Key [None]: {secret}
+Default region name [None]: us-east-1
+Default output format [None]: json
+```
+
 # How to Run Code:
 
 Make sure to create a .venv using Python 3.11
@@ -58,14 +76,15 @@ In order to run chatbot app:
 
 - Start backend service in the API directory (you will not be able to do this if you don't have credentials for our AWS instance, need to host your own)
 
-```angular2html
+```shell
 python application.py -key <key> -secret <secret>
 ```
 
 - Start the front end service
 
-```angular2html
-npm run start
+```shell
+cd chatbot-app
+npm i && npm run start
 ```
 
 - Navigate to localhost with the port you specified
