@@ -14,7 +14,7 @@ session = boto3.Session(
     region_name='us-east-1'
 )
 
-endpoint_name = "llama-2-7b-chat-011912-Endpoint-20240819-015325"
+endpoint_name = "jumpstart-dft-meta-textgeneration-l-20240819-023106"
 predictor = retrieve_default(endpoint_name)
 
 
